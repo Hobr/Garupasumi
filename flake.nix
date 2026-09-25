@@ -44,9 +44,9 @@
               lldb
             ]);
 
-          env = {
+          env = rec {
             ANDROID_HOME = "${androidSdk.androidsdk}/libexec/android-sdk/";
-            ANDROID_SDK_ROOT = "$ANDROID_HOME";
+            ANDROID_SDK_ROOT = ANDROID_HOME;
           };
 
           shellHook = ''
