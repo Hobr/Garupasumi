@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mt-manager": {
+      "url": "http://192.168.71.24:8787/mcp",
+      "directTools": true
+    }
+  }
+}
