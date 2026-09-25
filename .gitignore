@@ -271,5 +271,20 @@ rust-project.json
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,direnv,visualstudiocode,python,rust,rust-analyzer,java,kotlin
 
+# Zygisk
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/my_build
+/output
+/release
+
 # Agent
 .trellis/**/**.py
